@@ -1,0 +1,102 @@
+a:4:{s:8:"template";s:5:"evior";s:4:"mods";a:4:{i:0;b:0;s:18:"nav_menu_locations";a:3:{s:7:"primary";i:49;s:10:"footermenu";i:48;s:7:"topmenu";i:36;}s:18:"custom_css_post_id";i:1469;s:16:"sidebars_widgets";a:2:{s:4:"time";i:1657165622;s:4:"data";a:8:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:4:{i:0;s:20:"theme_recent_posts-2";i:1;s:8:"search-2";i:2;s:13:"media_image-2";i:3;s:33:"evior_category_list_widget_imgg-2";}s:15:"footer-widget-1";a:1:{i:0;s:6:"text-2";}s:15:"footer-widget-2";a:1:{i:0;s:10:"nav_menu-2";}s:15:"footer-widget-3";a:1:{i:0;s:10:"nav_menu-3";}s:15:"footer-widget-4";a:1:{i:0;s:10:"nav_menu-4";}s:15:"footer-widget-5";a:1:{i:0;s:10:"nav_menu-5";}s:12:"shop-sidebar";a:4:{i:0;s:7:"block-2";i:1;s:26:"woocommerce_price_filter-2";i:2;s:22:"woocommerce_products-2";i:3;s:7:"block-3";}}}}s:7:"options";a:30:{s:22:"woocommerce_demo_store";s:2:"no";s:29:"woocommerce_demo_store_notice";s:79:"This is a demo store for testing purposes &mdash; no orders shall be fulfilled.";s:29:"woocommerce_shop_page_display";s:0:"";s:36:"woocommerce_category_archive_display";s:0:"";s:35:"woocommerce_default_catalog_orderby";s:10:"menu_order";s:27:"woocommerce_catalog_columns";s:1:"3";s:24:"woocommerce_catalog_rows";s:1:"3";s:30:"woocommerce_single_image_width";s:3:"600";s:33:"woocommerce_thumbnail_image_width";s:3:"300";s:30:"woocommerce_thumbnail_cropping";s:3:"1:1";s:43:"woocommerce_thumbnail_cropping_custom_width";s:1:"4";s:44:"woocommerce_thumbnail_cropping_custom_height";s:1:"3";s:34:"woocommerce_checkout_company_field";s:8:"optional";s:36:"woocommerce_checkout_address_2_field";s:8:"optional";s:32:"woocommerce_checkout_phone_field";s:8:"required";s:46:"woocommerce_checkout_highlight_required_fields";s:3:"yes";s:55:"woocommerce_checkout_terms_and_conditions_checkbox_text";s:44:"I have read and agree to the website [terms]";s:40:"woocommerce_checkout_privacy_policy_text";s:161:"Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our [privacy_policy].";s:26:"wp_page_for_privacy_policy";s:1:"0";s:25:"woocommerce_terms_page_id";s:0:"";s:9:"site_icon";s:4:"1896";s:48:"evior_customize_options[_nonce-theme_settings-1]";s:0:"";s:41:"evior_customize_options[theme_main_color]";s:7:"#ff3524";s:38:"evior_customize_options[theme_body_bg]";s:4:"#fff";s:40:"evior_customize_options[theme_body_text]";s:7:"#555555";s:37:"evior_customize_options[preloader_bg]";s:7:"#ff3524";s:36:"evior_customize_options[back_btn_bg]";s:7:"#ff3524";s:48:"evior_customize_options[_nonce-theme_settings-7]";s:0:"";s:34:"evior_customize_options[footer_bg]";s:7:"#F1F4F7";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:1915:".footer_one_Widget, .footer_five_Widget {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.footer_two_Widget, .footer_three_Widget, .footer_four_Widget {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+body.admin-bar .body-inner-content {
+    margin-top: 0px;
+}
+
+.single-blog-content blockquote {
+    border-radius: 10px;
+}
+
+blockquote::before, .blockquote::before {
+    top: 45px;
+    font-weight: 700;
+}
+
+.blog-details-content figure.wp-block-image.size-large {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.blog-details-content figure.wp-block-image.size-large img {
+    border-radius: 10px;
+}
+
+.post-wrapper.cat-layout-main-list .category-box {
+    margin-bottom: 0px; 
+}
+
+.post-gridstyle-two .post-grid-content-two h3.post-title {
+    margin-bottom: 9px!important;
+}
+
+.custom-hide-excerpt .blog-post-grid-wrapper .post-excerpt-box p {
+    color: #fff!important;
+}
+
+.blog-post-grid-wrapper .news-post-grid-content h3.post-title {
+    margin-bottom: 8px!important;
+}
+
+.video-post-block-content h3.post-title {
+    margin-bottom: 8px!important;
+}
+
+.post-wrapper.cat-layout-main-list .category-box a:after {
+	display: none;
+}
+
+@media (max-width: 991px) {
+	.header_search_wrap .search_form_main {
+		z-index: 1000;
+	}
+
+}
+
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart.custom-cart-btn.loading:after {animation: none; top:17px;}
+@media (max-width: 600px) { 
+	
+.featured-full-slider-nav-wrapp {
+    display: none!important;
+}
+
+.post-content-overlay h3.post-title {
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 100%; 
+	}
+
+.theme-featured-slider-wrapper .arrow-cover {
+    left: 10px;
+    bottom: 30px;
+}	
+	
+.theme-featured-slider-wrapper .thumb-overlay.position-relative {
+    min-height: 375px!important;
+}
+	
+}
+
+
+.subscribe-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.subscribe-text p {
+    font-size: 15px;
+}
+
+
+
+
+";}

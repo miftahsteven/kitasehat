@@ -1,0 +1,87 @@
+
+---Downloaded files---
+The import files for: Main Demo were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://kita-sehat.id
+Data file = /var/www/html/kitasehat/wp-content/plugins/evior-extra//demo/demo-data.xml
+Widget file = /var/www/html/kitasehat/wp-content/plugins/evior-extra//demo/widget.wie
+Customizer file = /var/www/html/kitasehat/wp-content/plugins/evior-extra//demo/evior-customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog widget area : 
+
+Search - No Title - Imported
+Theme Recent Posts - Popular Posts - Imported
+Image - No Title - Imported
+
+Footer Widget Area One : 
+
+Text - No Title - Imported
+
+Footer Widget Area Two : 
+
+Navigation Menu - Business - Imported
+
+Footer Widget Area Three : 
+
+Navigation Menu - Entertainment - Imported
+
+Footer Widget Area Four : 
+
+Navigation Menu - Sports - Imported
+
+Footer Widget Area Five : 
+
+Navigation Menu - Technology - Imported
+
+Shop Sidebar : 
+
+Block - No Title - Imported
+Cart - Cart - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

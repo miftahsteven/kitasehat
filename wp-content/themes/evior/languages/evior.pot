@@ -1,0 +1,872 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ennlil\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-07 14:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: inc/template-tags.php:40
+msgid " "
+msgstr ""
+
+#: inc/template-tags.php:273
+msgid " Previous"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:184
+msgid ""
+" This logo will overwrite <mark>Customizer>Site Identity</mark> uploaded logo"
+msgstr ""
+
+#: inc/template-tags.php:104
+msgid "% Comments"
+msgstr ""
+
+#. 1: list of categories.
+#. 1: list of tags.
+#: inc/template-tags.php:43 inc/template-tags.php:98 inc/template-tags.php:112 
+#: inc/template-tags.php:356
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#. 1: date, 2: time
+#: inc/template-tags.php:246
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:51 comments.php:81
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: inc/template-tags.php:249
+msgid "(Edit)"
+msgstr ""
+
+#: inc/template-tags.php:95
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:104
+msgid "0 Comments"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:22
+msgid "01. Ennlil Primary Color"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:38
+msgid "02. Ennlil Header"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:111
+msgid "03. Ennlil Main Body"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:142
+msgid "04. Ennlil Footer"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:194
+msgid "05. Preloader"
+msgstr ""
+
+#: inc/template-tags.php:104
+msgid "1 Comment"
+msgstr ""
+
+#: 404.php:20
+msgid "404"
+msgstr ""
+
+#: inc/template-functions.php:148
+msgctxt "About Author"
+msgid "About Author"
+msgstr ""
+
+#: inc/required-plugins.php:85
+msgid "AccessPress Social Counter"
+msgstr ""
+
+#: functions.php:153
+msgid "Add Footer  widgets here."
+msgstr ""
+
+#: functions.php:163 functions.php:173 functions.php:183 functions.php:193
+msgid "Add Footer widgets here."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:519
+msgid "Ads Settings"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:121
+msgid "All Header Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:55
+msgid "Back Top"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:51
+msgid "Back Top Options"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:597
+msgid "Backup"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:418
+msgid "Blog Catgeory"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:427
+msgid "Blog Meta"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:263
+msgid "Blog Meta Show"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:236
+msgid "Blog Page"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:243
+msgid "Blog Page Option"
+msgstr ""
+
+#: functions.php:142
+msgid "Blog Sidebar Widget."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:276
+msgid "Blog Single Page"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:283
+msgid "Blog Single Page Option"
+msgstr ""
+
+#: functions.php:140
+msgid "Blog widget area"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:463
+msgid "Body Font Options"
+msgstr ""
+
+#: inc/required-plugins.php:91
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:193
+msgid "Breaking News"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:205
+msgid "Breaking news"
+msgstr ""
+
+#: comments.php:147
+msgid "Cancel reply"
+msgstr ""
+
+#: category.php:23
+msgid "Category"
+msgstr ""
+
+#: inc/required-plugins.php:97
+msgid "Category Order and Taxonomy Terms Order"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:395
+msgid "Category Page"
+msgstr ""
+
+#: comments.php:37
+msgid "Comment "
+msgstr ""
+
+#: comments.php:48 comments.php:78
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:35
+msgid "Comments "
+msgstr ""
+
+#: comments.php:91
+msgid "Comments are closed."
+msgstr ""
+
+#: template-parts/content.php:24
+#, php-format
+msgctxt "comments title"
+msgid "Comments (%1$s)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: footer.php:81
+msgid "Copyright &copy; Ennlil 2020. All rights reserved"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:178
+msgid "Copyright Area Background Color"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:173
+msgid "Copyright Area Options"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:584
+msgid "Copyright Area Text"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:184
+msgid "Copyright Area Text Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:134
+msgid "Do You want to Show Header Social Icons"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:96
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:91
+msgid "Dropdown Options"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:102
+msgid "Dropdown Text Color"
+msgstr ""
+
+#: inc/required-plugins.php:65
+msgid "Elementor"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:524
+msgid "Enable Header Ads Banner"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:107
+msgid "Enable Header Top Bar"
+msgstr ""
+
+#. Name of the theme
+msgid "Ennlil"
+msgstr ""
+
+#: inc/required-plugins.php:77
+msgid "Ennlil Extra"
+msgstr ""
+
+#: comments.php:127
+msgid "Enter Comments"
+msgstr ""
+
+#: comments.php:113
+msgid "Enter Email"
+msgstr ""
+
+#: comments.php:112
+msgid "Enter Name"
+msgstr ""
+
+#: comments.php:114
+msgid "Enter Website"
+msgstr ""
+
+#: inc/template-functions.php:109
+msgid "Facebook Profile Link"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:559
+msgid "Footer"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:152
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:579
+msgid "Footer Copyright Area Options"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:586
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: functions.php:91
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:565 
+#: inc/theme-options/theme-customizer.php:147
+msgid "Footer Options"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:570
+msgid "Footer Right Menu"
+msgstr ""
+
+#: functions.php:191
+msgid "Footer Widget Area Five"
+msgstr ""
+
+#: functions.php:181
+msgid "Footer Widget Area Four"
+msgstr ""
+
+#: functions.php:151
+msgid "Footer Widget Area One"
+msgstr ""
+
+#: functions.php:171
+msgid "Footer Widget Area Three"
+msgstr ""
+
+#: functions.php:161
+msgid "Footer Widget Area Two"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:157
+msgid "Footer Widget Options"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:168
+msgid "Footer Widget Text Color"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:162
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Template"
+msgstr ""
+
+#: 404.php:26
+msgid "Go Home Page"
+msgstr ""
+
+#: functions.php:211
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#. Author of the theme
+msgid "Gossip Themes"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:83
+msgid "Header Navigation Style"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:68
+msgid "Header Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:129
+msgid "Header Social Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:102
+msgid "Header Top"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:487
+msgid "Heading Font Options"
+msgstr ""
+
+#. Name of the template
+msgid "HomePage Template"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://gossipthemes.com.com"
+msgstr ""
+
+#. URI of the theme
+msgid "http://gossipthemes.com/ennlil"
+msgstr ""
+
+#: inc/template-functions.php:111
+msgid "Instagram"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:155
+msgid "Inter Social Url"
+msgstr ""
+
+#: template-parts/content-none.php:3
+msgid "It looks like nothing was found here. Maybe try a search?"
+msgstr ""
+
+#: comments.php:145
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:146
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/template-tags.php:352
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:108
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: comments.php:140
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:140
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:135
+msgid "logged in"
+msgstr ""
+
+#: comments.php:140
+msgid "Logged in as"
+msgstr ""
+
+#: inc/required-plugins.php:71
+msgid "Mailchimp "
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:116
+msgid "Main Body Options"
+msgstr ""
+
+#. Description of the theme
+msgid "Modern Magazine WordPress Theme"
+msgstr ""
+
+#: inc/template-tags.php:266
+msgid "More pages: "
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:48
+msgid "Nav Bar One Background Color"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:43
+msgid "Nav Bar One Options"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:80
+msgid "Nav Bar Three Background Color"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:75
+msgid "Nav Bar Three Options"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:64
+msgid "Nav Bar Two Background Color"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:59
+msgid "Nav Bar Two Options"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:107
+msgid "Nav Menu Option"
+msgstr ""
+
+#: comments.php:54 comments.php:84
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: inc/template-tags.php:272
+msgid "Next "
+msgstr ""
+
+#: template-parts/content-none.php:2
+msgid "Nothing found!"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:230
+msgid "Pages & Template"
+msgstr ""
+
+#: template-parts/content-page.php:16
+msgid "Pages:"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:150
+msgid "Pick Up Your Social Icon"
+msgstr ""
+
+#: inc/template-functions.php:112
+msgid "Pinterest"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:58 inc/template-tags.php:91
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:302
+msgid "Post Category Name"
+msgstr ""
+
+#: comments.php:148
+msgctxt "Post Comment "
+msgid "Post Comment "
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:103
+#, php-format
+msgctxt "post comment"
+msgid "%s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:26 inc/template-tags.php:85
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:361
+msgid "Post Navigation"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:44
+msgid "Preloader"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:199
+msgid "Preloader  Options"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:204
+msgid "Preloader Background Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:40
+msgid "Preloader Options"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:210
+msgid "Preloader Spinner Color"
+msgstr ""
+
+#: functions.php:90
+msgid "Primary Menu"
+msgstr ""
+
+#: template-parts/content.php:36 
+#: template-parts/category-templates/catt-one.php:43 
+#: template-parts/category-templates/catt-two.php:39
+msgid "Read More"
+msgstr ""
+
+#: template-parts/single/related-posts.php:16 
+#: inc/theme-options/theme-options.php:385
+msgctxt "Related"
+msgid "Related Posts"
+msgstr ""
+
+#: inc/template-tags.php:235
+msgid "says:"
+msgstr ""
+
+#: template-parts/headers/nav-style-two.php:132 
+#: template-parts/headers/nav-style-three.php:119 
+#: template-parts/headers/nav-style-one.php:132
+msgid "Search ..."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:121
+msgid "Search Bar Display In Header"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:116
+msgid "Search Bar Option"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search here..."
+msgstr ""
+
+#: inc/template-tags.php:297
+msgid "Search Keyword"
+msgstr ""
+
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:407 
+#: inc/theme-options/theme-metabox.php:53
+msgid "Select Category Layout"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:402
+msgid "Select Category Style"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:90 
+#: inc/theme-options/theme-metabox.php:114
+msgid "Select Header Navigation Style"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:289 
+#: inc/theme-options/theme-metabox.php:152
+msgid "Select Single Blog Style"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:316
+msgid "Show Author"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:265 
+#: inc/theme-options/theme-options.php:420
+msgid "Show Blog category"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:429
+msgid "Show Blog Meta Info"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:200
+msgid "Show Breaking News"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:332
+msgid "Show Comments"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:324
+msgid "Show Date"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:375 
+#: inc/theme-options/theme-options.php:377
+msgid "Show Post Author"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:300
+msgid "Show Post Catgeory"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:308
+msgid "Show Post Meta"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:359
+msgid "Show Post Navigation"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:348
+msgid "Show Post read Time"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:367 
+#: inc/theme-options/theme-options.php:369
+msgid "Show Post Tags"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:340
+msgid "Show Post View"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:383
+msgid "Show Related Posts"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:318
+msgid "Single Post Author"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:334
+msgid "Single Post Comments Number"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:326
+msgid "Single Post Date"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:145
+msgid "Single Post Layout Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:310
+msgid "Single Post Meta"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:350
+msgid "Single Post Total Read Time"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:342
+msgid "Single Post Views"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:168
+msgid "Site Logo"
+msgstr ""
+
+#: 404.php:23
+msgid "Sorry!...Page Not Found!"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:127
+msgid "Sub Header Color"
+msgstr ""
+
+#: inc/template-tags.php:356
+msgid "Tags:"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:133
+msgid "Text Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:76
+msgid "Theme Header"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:176
+msgid "Theme Logo Options"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:28
+msgid "Theme Main Color"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:30
+msgid ""
+"This is theme primary color, means it'll affect most of elements that have "
+"default color of our theme primary color"
+msgstr ""
+
+#: comments.php:135
+msgid "to post a comment."
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:54 
+#: inc/theme-options/theme-customizer.php:70 
+#: inc/theme-options/theme-customizer.php:86
+msgid "Top Bar Text Color"
+msgstr ""
+
+#: inc/template-functions.php:110
+msgid "Twitter Profile"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:458 
+#: inc/theme-options/theme-options.php:468 
+#: inc/theme-options/theme-options.php:492
+msgid "Typography"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:532
+msgid "Upload Header Ads Banner"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:181
+msgid "Upload Theme Logo"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:83
+msgid "Upload Video For Post"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:84
+msgid "Upload Video Post"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:70
+msgid "Video Post Format Options"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:505
+msgid ""
+"You can set <mark>font</mark> for  for heading tag .eg: h1,h2mh3,h4,h5,h6"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:482
+msgid ""
+"You can set <mark>font</mark> for all html tags (if not use different "
+"heading font)"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:526
+msgid "You can set <mark>Yes / No</mark> to enable/disable Header Ads"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:109
+msgid "You can set <mark>Yes / No</mark> to enable/disable Header Top Bar."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:46
+msgid "You can set <mark>Yes / No</mark> to enable/disable preloader"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:123
+msgid ""
+"You can set <mark>Yes / No</mark> to enable/disable search bar in header"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:136
+msgid ""
+"You can set <mark>Yes / No</mark> to enable/disable Social bar in header"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:572
+msgid "You can set <mark>Yes / No</mark> to show Footer menu"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:57
+msgid "You can set <mark>Yes / No</mark> to show/hide back to top"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:207
+msgid "You can set <mark>Yes / No</mark> to show/hide breaking news"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:536
+msgid "You can upload <mark>Ads banner</mark> in Header."
+msgstr ""
+
+#: comments.php:135
+msgid "You must be"
+msgstr ""
+
+#: inc/template-tags.php:239
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-functions.php:113
+msgid "Youtube Profile"
+msgstr ""
