@@ -36,6 +36,28 @@ $top_text_btn_link = evior_get_option('top_text_btn_link');
 
 $theme_header_sticky = evior_get_option('theme_header_sticky');
 
+$slider_images = [];
+  $args = [
+    'post_type'      => 'attachment',
+    'post_status'    => 'inherit',
+    'posts_per_page' => 10,
+    'post_mime_type' => 'image',
+    'orderby'        => 'date',
+    'order'          => 'DESC',
+  ];
+  $q = new WP_Query($args);
+  if ($q->have_posts()) {
+    foreach ($q->posts as $att) {
+      $url = wp_get_attachment_image_src($att->ID, 'full');
+      if ($url && !empty($url[0])) {
+        $slider_images[] = [
+          'src' => esc_url($url[0]),
+          'alt' => esc_attr(get_post_meta($att->ID, '_wp_attachment_image_alt', true) ?: $att->post_title),
+        ];
+      }
+    }
+  }
+
 ?>
 
 
@@ -220,9 +242,28 @@ $theme_header_sticky = evior_get_option('theme_header_sticky');
 				<div class="banner-logo" style="width: 235px; height: 55px; margin-left: 10px; margin-top: -15px; margin-bottom: -12px; position: relative; text-align: center; align-self: center; align-content: center;">
 					<img src="https://kita-sehat.id/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-02-at-23.19.43.jpeg" style="width:190px; height: 46px;margin-top: 9xpx;" /> 
 				</div>
-				<div class="big-banner" style="width: 100%; height: 120px; text-align:center; justify-content:center; align-self:center; align-content: center; padding-top: 40px;">
+
+				<div class="header-banner-slider-wrap">
+					<div class="swiper header-swiper">
+						<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="https://kita-sehat.id/wp-content/uploads/2025/12/3-scaled.jpg" alt="Slide 3" class="header-slide-img" />
+						</div>
+						<div class="swiper-slide">
+							<img src="https://kita-sehat.id/wp-content/uploads/2025/12/2-scaled.jpg" alt="Slide 2" class="header-slide-img" />
+						</div>
+						<div class="swiper-slide">
+							<img src="https://kita-sehat.id/wp-content/uploads/2025/12/1-scaled.jpg" alt="Slide 1" class="header-slide-img" />
+						</div>
+						</div>
+						<div class="swiper-pagination"></div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+					</div>
+				<!-- <div class="big-banner" style="width: 100%; height: 120px; text-align:center; justify-content:center; align-self:center; align-content: center; padding-top: 40px;">
 					<img src='https://kita-sehat.id/wp-content/uploads/2025/07/banner-desktop-1-scaled.jpg' style='width: 1200px; height: 120px; margin-top: -40px;' />
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
