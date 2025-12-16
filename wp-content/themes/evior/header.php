@@ -1,4 +1,8 @@
 <?php
+if ( function_exists('elementor_theme_do_location') && elementor_theme_do_location('header') ) {
+    // Elementor sudah merender header → hentikan header default
+    return;
+}
 /**
  * The header for our theme
  *

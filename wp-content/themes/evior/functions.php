@@ -476,3 +476,12 @@ function evior_post_ajax_loading_cb()
 add_action( 'wp_ajax_nopriv_evior_post_ajax_loading', 'evior_post_ajax_loading_cb' );
 add_action( 'wp_ajax_evior_post_ajax_loading', 'evior_post_ajax_loading_cb' );
 
+add_action('elementor/theme/register_locations', function($elementor_theme_manager) {
+    // Daftarkan lokasi header agar bisa di-override oleh Elementor Theme Builder
+    if (method_exists($elementor_theme_manager, 'register_location')) {
+        $elementor_theme_manager->register_location('header');
+    } elseif (method_exists($elementor_theme_manager, 'register_all_core_location')) {
+        $elementor_theme_manager->register_all_core_location();
+    }
+});
+
