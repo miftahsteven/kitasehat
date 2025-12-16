@@ -116,13 +116,18 @@ $theme_header_sticky = evior_get_option('theme_header_sticky');
 	
 	<div class="theme-header-wrap-main logo-area">
 		<div class="container">
-			<div class="row align-items-center" style="margin-top: -20px;">
-				<div class="header-tag col-1 bg-white"></div> 
-				<div class="header-tag col-4 bg-info h-25 mx-25">
+			<div class="row align-items-center" style="margin-top: -40px;">
+				<div class="col-1 header-tag bg-white"></div> 
+				<div class="col-4 header-tag" style="background-color: #0f3077">
 					&nbsp;
 				</div>
 				<div class="header-tag col-7 bg-white"></div> 
-			</div>		
+			</div>
+			<div class="row align-items-center" style="height: 45px; margin-top: 0px;justify-items: center;justify-content: center; margin-bottom: 12px;">
+				<div class="col-12 header-tag-brand" style="height:40px; border:0px; padding-top: 5px; align-content: center; text-align: center; align-self: center; justify-content: center;">
+				   <img src='https://kita-sehat.id/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-02-at-22.06.45.jpeg' style='width: 1000px; height: 40px; margin-top: 0px;' />			
+				</div> 						
+			</div>
 			<div class="row align-items-center">
 				<div class="col-lg-2 col-md-12">								
 					<div class="logo theme-logo">
@@ -142,9 +147,8 @@ $theme_header_sticky = evior_get_option('theme_header_sticky');
 						printf('<h1 class="text-logo"><a href="%1$s">%2$s</a></h1>',esc_url(site_url('/')),esc_html(get_bloginfo('name')));
 					}
 					?>
-					</div>
-
-				</div>
+					</div>									
+				</div>				
 				
 				<div class="<?php if($register_btn_enable == false ) { echo "col-lg-9"; } else { echo "col-lg-8"; } ?> col-md-12 nav-design-twoo megamenu-col-wrapper">
 					<div class="nav-menu-wrapper">
@@ -166,8 +170,7 @@ $theme_header_sticky = evior_get_option('theme_header_sticky');
 						</div>
 					</div>	
 				</div>
-				
-				
+								
 				<div class="<?php if($register_btn_enable == false ) { echo "col-lg-1"; } else { echo "col-lg-2"; } ?>">
 					<div class="header-right-content text-right">
 						<!-- 
@@ -213,6 +216,12 @@ $theme_header_sticky = evior_get_option('theme_header_sticky');
 						
 						
 					</div>
+				</div>
+				<div class="banner-logo" style="width: 235px; height: 55px; margin-left: 10px; margin-top: -15px; margin-bottom: -12px; position: relative; text-align: center; align-self: center; align-content: center;">
+					<img src="https://kita-sehat.id/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-02-at-23.19.43.jpeg" style="width:190px; height: 46px;margin-top: 9xpx;" /> 
+				</div>
+				<div class="big-banner" style="width: 100%; height: 120px; text-align:center; justify-content:center; align-self:center; align-content: center; padding-top: 40px;">
+					<img src='https://kita-sehat.id/wp-content/uploads/2025/07/banner-desktop-1-scaled.jpg' style='width: 1200px; height: 120px; margin-top: -40px;' />
 				</div>
 			</div>
 		</div>

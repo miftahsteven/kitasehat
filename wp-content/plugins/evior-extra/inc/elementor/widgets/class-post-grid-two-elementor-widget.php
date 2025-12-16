@@ -505,9 +505,16 @@ class evior_post_grid_two extends \Elementor\Widget_Base {
         <?php while ($query->have_posts()) : $query->the_post(); ?>
 		
 			<div class="<?php echo esc_attr($grid_post_column);?>">
-				
+
 				<div class="post-grid-wrapper-two-inner">
-				
+				    <div class="container" id="headerkat">	
+					<div class="row align-items-center">
+                                                <div class="col-8 custom_categories" style="background-color: #0f3077;" id="linesmall">&nbsp;</div>
+                                                <div class="col-4 custom_categories" style="background-color: #0f3077;" id="kat_show">
+                                                     <?php require EVIOR_THEME_DIR . '/template-parts/cat-color-front.php'; ?>
+                                                </div>
+                                        </div>
+				   </div>
 					<div class="grid-thumbnail-two-wrap">
 						<a href="<?php the_permalink(); ?>" class="post-grid-thumbnail-two">
 							<img src="<?php echo esc_attr(esc_url(get_the_post_thumbnail_url(null, 'full'))); ?>" alt="<?php the_title_attribute(); ?>">
