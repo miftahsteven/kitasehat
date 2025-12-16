@@ -476,21 +476,3 @@ function evior_post_ajax_loading_cb()
 add_action( 'wp_ajax_nopriv_evior_post_ajax_loading', 'evior_post_ajax_loading_cb' );
 add_action( 'wp_ajax_evior_post_ajax_loading', 'evior_post_ajax_loading_cb' );
 
-add_action('wp_enqueue_scripts', function () {
-	wp_enqueue_style('swiper-css', 'https://unpkg.com/swiper@9/swiper-bundle.min.css', [], null);
-	wp_enqueue_script('swiper-js', 'https://unpkg.com/swiper@9/swiper-bundle.min.js', [], null, true);
-	wp_add_inline_script('swiper-js', "
-	  document.addEventListener('DOMContentLoaded', function(){
-		var el = document.querySelector('.header-swiper');
-		if (!el) return;
-		new Swiper('.header-swiper', {
-		  loop: true,
-		  autoplay: { delay: 4000, disableOnInteraction: false },
-		  speed: 600,
-		  pagination: { el: '.header-swiper .swiper-pagination', clickable: true },
-		  navigation: { nextEl: '.header-swiper .swiper-button-next', prevEl: '.header-swiper .swiper-button-prev' }
-		});
-	  });
-	");
-  });
-
