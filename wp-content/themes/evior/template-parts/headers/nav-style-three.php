@@ -213,20 +213,16 @@ $theme_header_sticky = evior_get_option('theme_header_sticky');
 							<a href="<?php echo esc_url( wp_registration_url() ); ?>" target="_blank"><?php esc_html_e( 'Register Now', 'evior' ); ?></a>
 						</div>
 						
-						<?php endif; ?>
-						
-
-						
-						
+						<?php endif; ?>																		
 						
 					</div>
 				</div>
 				<div class="banner-logo" style="width: 235px; height: 55px; margin-left: 10px; margin-top: -15px; margin-bottom: -12px; position: relative; text-align: center; align-self: center; align-content: center;">
 					<img src="https://kita-sehat.id/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-02-at-23.19.43.jpeg" style="width:190px; height: 46px;margin-top: 9xpx;" /> 
 				</div>
-				<div class="big-banner" style="width: 100%; height: 120px; text-align:center; justify-content:center; align-self:center; align-content: center; padding-top: 40px;">
+				<!-- <div class="big-banner" style="width: 100%; height: 120px; text-align:center; justify-content:center; align-self:center; align-content: center; padding-top: 40px;">
 					<img src='https://kita-sehat.id/wp-content/uploads/2025/07/banner-desktop-1-scaled.jpg' style='width: 1200px; height: 120px; margin-top: -40px;' />
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
