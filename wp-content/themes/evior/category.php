@@ -19,9 +19,9 @@ $evior_cat_style_template = !empty( $evior_cat_style['evior_cat_layout'] )? $evi
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12">
-					<h1 class="theme-breacrumb-title">
+					<!-- <h1 class="theme-breacrumb-title">
 						<?php echo esc_html__('Category','evior').' :'; ?>  <?php single_cat_title(); ?>
-					</h1>
+					</h1> -->
 					<?php
 					$term  = get_queried_object();
 					$image = get_field('category_header_image', $term); // ACF
