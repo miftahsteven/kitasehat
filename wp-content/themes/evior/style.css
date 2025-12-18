@@ -10,3 +10,124 @@ License URI: LICENSE
 Text Domain: evior
 Tags: two-columns, three-columns, four-columns, right-sidebar, custom-menu, featured-images, full-width-template
 */
+
+.header-banner-slider-wrap {
+    width: 100%;
+    margin: 0;
+}
+
+/* Swiper kontainer full width */
+.header-swiper {
+    width: 100%;
+}
+
+/* Slide gambar fluid */
+.header-slide-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Tinggi adaptif di berbagai viewport */
+@media (max-width: 767px) {
+
+    /* Header lebih rendah di mobile */
+    .header-swiper {
+        min-height: 120px;
+    }
+
+    .header-slide-img {
+        max-height: 140px;
+        object-fit: cover;
+    }
+
+    /* Sembunyikan panah, pakai pagination saja */
+    .header-swiper .swiper-button-prev,
+    .header-swiper .swiper-button-next {
+        display: none !important;
+    }
+
+    .header-swiper .swiper-pagination {
+        bottom: 6px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-swiper {
+        min-height: 160px;
+    }
+
+    .header-slide-img {
+        max-height: 180px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1025px) {
+
+    /* Desktop: biarkan mengikuti container, jika ingin tinggi tetap gunakan max-height */
+    .header-slide-img {
+        max-height: 220px;
+    }
+}
+
+/* Penataan pagination/controls */
+.header-swiper .swiper-pagination-bullets .swiper-pagination-bullet {
+    background: rgba(15, 48, 119, 0.6);
+}
+
+.header-swiper .swiper-button-prev,
+.header-swiper .swiper-button-next {
+    width: 28px;
+    height: 28px;
+    color: #0f3077;
+}
+
+/* Pastikan container header tidak memaksa lebar/tinggi yang aneh */
+#theme-header-three .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#theme-header-three .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+theme-header-wrap-main.logo-area .row.align-items-center {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* Kolom logo */
+.header-logo-col {
+    flex: 0 0 auto;
+}
+
+/* Kolom slider */
+.header-slider-col {
+    flex: 1 1 100%;
+}
+
+/* Mobile: logo di atas, slider penuh di bawah */
+@media (max-width: 767px) {
+    .header-logo-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-slider-col {
+        width: 100%;
+    }
+
+    /* Logo skala aman */
+    .site-branding img,
+    .navbar-brand img {
+        max-width: 180px;
+        height: auto;
+    }
+}

@@ -22,7 +22,27 @@ $evior_cat_style_template = !empty( $evior_cat_style['evior_cat_layout'] )? $evi
 					<h1 class="theme-breacrumb-title">
 						<?php echo esc_html__('Category','evior').' :'; ?>  <?php single_cat_title(); ?>
 					</h1>
-					
+					<?php
+                // Ambil object kategori yang sedang dibuka
+                $term = get_queried_object();
+
+                if ( $term && isset( $term->term_id ) ) {
+                    // Ambil ID gambar dari term meta (isi per kategori)
+                    $image_id = get_term_meta( $term->term_id, 'category_header_image_id', true );
+
+                    if ( $image_id ) : ?>
+                        <div class="category-header-image-wrapper">
+                            <?php
+                            // Tampilkan image (bisa 'full' atau 'large')
+                            echo wp_get_attachment_image( $image_id, 'full', false, array(
+                                'class' => 'category-header-image',
+                                'alt'   => esc_attr( $term->name ),
+                            ) );
+                            ?>
+                        </div>
+                    <?php endif;
+                }
+                ?>
                 </div>
             </div>
         </div>
