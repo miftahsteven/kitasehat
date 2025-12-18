@@ -15,18 +15,21 @@ $evior_cat_style_template = !empty( $evior_cat_style['evior_cat_layout'] )? $evi
 ?>
 
 	<!-- Category Breadcrumb -->
-    <div class="theme-breadcrumb__Wrapper theme-breacrumb-area">
+	<?php
+	$term  = get_queried_object();
+	$image = get_field('category_header_image', $term); // ACF
+	
+	// Check if image exists to modify wrapper style
+	$wrapper_style = $image ? 'style="background: transparent; padding: 0;"' : '';
+	?>
+    <div class="theme-breadcrumb__Wrapper theme-breacrumb-area" <?php echo $wrapper_style; ?>>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12">
 					<!-- <h1 class="theme-breacrumb-title">
 						<?php //echo esc_html__('Category','evior').' :'; ?>  <?php single_cat_title(); ?>
 					</h1> -->
-					<?php
-					$term  = get_queried_object();
-					$image = get_field('category_header_image', $term); // ACF
-
-					if ( $image ) : ?>
+					<?php if ( $image ) : ?>
 						<div class="category-header-image-wrapper">
 							<img src="<?php echo esc_url( $image['url'] ); ?>"
 								alt="<?php echo esc_attr( $term->name ); ?>"
